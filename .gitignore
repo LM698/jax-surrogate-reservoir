@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Python environments
+.venv/
+venv/
+env/
+miniforge3/
+
+# Large raw data and outputs
+*.nc
+*.npy
+*.npz
+outputs/
+experiment_outputs/
+outputs_Moore/
+figures/
+results/
+
+# Optional: uncomment these if your CSV files are too large
+# *.csv

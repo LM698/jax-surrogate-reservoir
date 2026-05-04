@@ -1,0 +1,19 @@
+name: lm26_jax
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - xarray
+  - netcdf4
+  - scipy
+  - scikit-learn
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - jax
+      - jaxlib
+      - optax
